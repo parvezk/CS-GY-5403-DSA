@@ -1,6 +1,10 @@
 //
 //  main.cpp
-//  program1
+//  03. Imagine that N people have decided to commit mass suicide by arranging themselves in a circle and killing the Mth person around the circle, closing the ranks as each person drops out of the circle.
+//  Find out which person is the last to die, or, more generally, find the order in which those people are executed.
+//  For example, if N = 9 and M = 5, the people are killed in the following order: 5,1,7,4,3,6,9,2,8.
+//
+//  Write C++ code that implements a solution (dynamic storage allocation, any number of people, using a linked list).
 //
 //  Created by Parvez Kose on 9/28/17.
 //  Copyright © 2017 Parvez Kose. All rights reserved.
@@ -12,7 +16,6 @@ typedef int ItemType;
 
 struct NODE;
 typedef NODE *NodePtr;
-void delete_position(int pos);
 
 struct NODE {
     ItemType data;
@@ -39,7 +42,6 @@ int main (int argc, const char * argv[]) {
         newNodePtr->data = i;    // set data value
         currPtr->next = newNodePtr;    // link node into list
         currPtr = newNodePtr;    // set currPtr to last node
-    
     }
 
     currPtr->next = NULL;
@@ -55,34 +57,29 @@ int main (int argc, const char * argv[]) {
     NODE *current = new NODE;
     NODE *previous = new NODE;
     current = head;
-    
-    while (deathcount < n) {
 
+    while (deathcount < n) {
+        
         if(iteration == m){
-            cout << "Death Index: " << current->data << endl;
+            cout << "Death Number: " << " " << current->data << endl;
             previous->next=current->next;
             current = current->next;
             
             iteration = 0;
             deathcount++;
-            
         } else {
-            //cout << "prev:" << previous->data << " curr:" << current->data << endl;
             previous = current;
             current = current->next;
             
             if(previous->data == n){
                 if(deathcount > 2){
-                
                     current = head->next;
                 } else {
                     current = head;
                 }
             }
         }
-        
         iteration++;
     }
-    
     return 0;
 }
