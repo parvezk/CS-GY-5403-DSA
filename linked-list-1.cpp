@@ -56,10 +56,6 @@ int main (int argc, const char * argv[]) {
     NODE *previous = new NODE;
     current = head;
     
-    NodePtr second;
-    second = new NODE;
-    second->data = 2;
-    
     while (deathcount < n) {
 
         if(iteration == m){
@@ -90,7 +86,3 @@ int main (int argc, const char * argv[]) {
     
     return 0;
 }
-
-
-// TODO: implement m-counter
-// TODO: implement NODE deletion
