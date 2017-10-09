@@ -26,6 +26,8 @@
 		313C973A1F8BCA7C00B1DE49 /* Arrays */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Arrays; sourceTree = BUILT_PRODUCTS_DIR; };
 		313C973D1F8BCA7C00B1DE49 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		313C97441F8BCACA00B1DE49 /* reversal.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = reversal.hpp; sourceTree = "<group>"; };
+		313C97451F8BF1E800B1DE49 /* strings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = strings.h; sourceTree = "<group>"; };
+		313C97461F8BF2E900B1DE49 /* out-of-bound.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "out-of-bound.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,8 @@
 			children = (
 				313C973D1F8BCA7C00B1DE49 /* main.cpp */,
 				313C97441F8BCACA00B1DE49 /* reversal.hpp */,
+				313C97451F8BF1E800B1DE49 /* strings.h */,
+				313C97461F8BF2E900B1DE49 /* out-of-bound.h */,
 			);
 			path = Arrays;
 			sourceTree = "<group>";
