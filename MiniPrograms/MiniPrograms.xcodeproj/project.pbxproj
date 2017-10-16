@@ -23,11 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		313C973A1F8BCA7C00B1DE49 /* Arrays */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Arrays; sourceTree = BUILT_PRODUCTS_DIR; };
+		313C973A1F8BCA7C00B1DE49 /* MiniPrograms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MiniPrograms; sourceTree = BUILT_PRODUCTS_DIR; };
 		313C973D1F8BCA7C00B1DE49 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		313C97441F8BCACA00B1DE49 /* reversal.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = reversal.hpp; sourceTree = "<group>"; };
 		313C97451F8BF1E800B1DE49 /* strings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = strings.h; sourceTree = "<group>"; };
 		313C97461F8BF2E900B1DE49 /* out-of-bound.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "out-of-bound.h"; sourceTree = "<group>"; };
+		313C97471F8BFE4400B1DE49 /* char.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = char.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +45,7 @@
 		313C97311F8BCA7C00B1DE49 = {
 			isa = PBXGroup;
 			children = (
-				313C973C1F8BCA7C00B1DE49 /* Arrays */,
+				313C973C1F8BCA7C00B1DE49 /* MiniPrograms */,
 				313C973B1F8BCA7C00B1DE49 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,28 +53,29 @@
 		313C973B1F8BCA7C00B1DE49 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				313C973A1F8BCA7C00B1DE49 /* Arrays */,
+				313C973A1F8BCA7C00B1DE49 /* MiniPrograms */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		313C973C1F8BCA7C00B1DE49 /* Arrays */ = {
+		313C973C1F8BCA7C00B1DE49 /* MiniPrograms */ = {
 			isa = PBXGroup;
 			children = (
 				313C973D1F8BCA7C00B1DE49 /* main.cpp */,
 				313C97441F8BCACA00B1DE49 /* reversal.hpp */,
 				313C97451F8BF1E800B1DE49 /* strings.h */,
 				313C97461F8BF2E900B1DE49 /* out-of-bound.h */,
+				313C97471F8BFE4400B1DE49 /* char.h */,
 			);
-			path = Arrays;
+			path = MiniPrograms;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		313C97391F8BCA7C00B1DE49 /* Arrays */ = {
+		313C97391F8BCA7C00B1DE49 /* MiniPrograms */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 313C97411F8BCA7C00B1DE49 /* Build configuration list for PBXNativeTarget "Arrays" */;
+			buildConfigurationList = 313C97411F8BCA7C00B1DE49 /* Build configuration list for PBXNativeTarget "MiniPrograms" */;
 			buildPhases = (
 				313C97361F8BCA7C00B1DE49 /* Sources */,
 				313C97371F8BCA7C00B1DE49 /* Frameworks */,
@@ -83,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = Arrays;
+			name = MiniPrograms;
 			productName = Arrays;
-			productReference = 313C973A1F8BCA7C00B1DE49 /* Arrays */;
+			productReference = 313C973A1F8BCA7C00B1DE49 /* MiniPrograms */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -103,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 313C97351F8BCA7C00B1DE49 /* Build configuration list for PBXProject "Arrays" */;
+			buildConfigurationList = 313C97351F8BCA7C00B1DE49 /* Build configuration list for PBXProject "MiniPrograms" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +117,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				313C97391F8BCA7C00B1DE49 /* Arrays */,
+				313C97391F8BCA7C00B1DE49 /* MiniPrograms */,
 			);
 		};
 /* End PBXProject section */
@@ -254,7 +256,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		313C97351F8BCA7C00B1DE49 /* Build configuration list for PBXProject "Arrays" */ = {
+		313C97351F8BCA7C00B1DE49 /* Build configuration list for PBXProject "MiniPrograms" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				313C973F1F8BCA7C00B1DE49 /* Debug */,
@@ -263,7 +265,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		313C97411F8BCA7C00B1DE49 /* Build configuration list for PBXNativeTarget "Arrays" */ = {
+		313C97411F8BCA7C00B1DE49 /* Build configuration list for PBXNativeTarget "MiniPrograms" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				313C97421F8BCA7C00B1DE49 /* Debug */,

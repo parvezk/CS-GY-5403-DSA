@@ -14,13 +14,13 @@ using namespace std;
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    std::cout << "Hello, World!\n";
+    cout << "Hello, World!\n";
     //newArray();
     //cout << aString << "\n";
     
     for (int i = 0; i < 10; i++) {
         alpha[i] = 0.0;
-        cout << alpha[i];
+        cout << alpha[i] << endl;
     }
     
     return 0;
