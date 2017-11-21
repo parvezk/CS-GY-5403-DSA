@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:/Applications/MAMP/htdocs/DSA/Source/customc++/OOPS/classes-1.xcodeproj">
+      location = "self:Queen-New.xcodeproj">
    </FileRef>
 </Workspace>

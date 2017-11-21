@@ -1,15 +1,17 @@
 //
 //  main.cpp
-//  Classes
+//  DateType
 //
-//  Created by Parvez Kose on 11/18/17.
+//  Created by Parvez Kose on 11/19/17.
 //  Copyright © 2017 Parvez Kose. All rights reserved.
 //
 
 #include <iostream>
+#include "DateType.cpp"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    
+    DateType today;
+    DateType anotherDay;
     return 0;
 }
