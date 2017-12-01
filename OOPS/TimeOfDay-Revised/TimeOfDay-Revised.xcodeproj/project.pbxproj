@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		31FAB9FE1FC507E2004D325F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31FAB9FD1FC507E2004D325F /* main.cpp */; };
+		31FABA061FCD9B8F004D325F /* TimeOfDay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31FABA041FCD9B8F004D325F /* TimeOfDay.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		31FAB9FA1FC507E2004D325F /* TimeOfDay-Revised */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "TimeOfDay-Revised"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31FAB9FD1FC507E2004D325F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		31FABA041FCD9B8F004D325F /* TimeOfDay.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TimeOfDay.cpp; sourceTree = "<group>"; };
+		31FABA051FCD9B8F004D325F /* TimeOfDay.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TimeOfDay.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				31FAB9FD1FC507E2004D325F /* main.cpp */,
+				31FABA041FCD9B8F004D325F /* TimeOfDay.cpp */,
+				31FABA051FCD9B8F004D325F /* TimeOfDay.hpp */,
 			);
 			path = "TimeOfDay-Revised";
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31FABA061FCD9B8F004D325F /* TimeOfDay.cpp in Sources */,
 				31FAB9FE1FC507E2004D325F /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
